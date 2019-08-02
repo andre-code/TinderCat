@@ -1,6 +1,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   padding: 0px;
+  outline: none;
 }
 body {
   margin: 0px;
@@ -18,11 +19,15 @@ h1, h2 {
 }
 button {
   padding: 10px 30px;
-  background-color: rgb(231, 133, 231);
-  border: 3px solid purple;
-  margin: 25px 5px;
+  background-color: #fff;
+  border: 2px solid purple;
+  margin: 20px 5px;
   border-radius: 15px;
   font-size: 24px;
+}
+button:hover {
+  box-shadow: #80008057 5px 5px 20px;
+  background-color: rgba(231, 133, 231, 0.36);
 }
 .button-box {
   align-items: center;
