@@ -1,5 +1,5 @@
-const SHELL_CACHE_NAME = 'shell-v1';
-const DYNAMIC_CACHE_NAME = 'dynamic-v1';
+const SHELL_CACHE_NAME = 'shell-v2';
+const DYNAMIC_CACHE_NAME = 'dynamic-v2';
 
 /*
  * Installation 
