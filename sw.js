@@ -8,7 +8,7 @@ self.addEventListener('install', event => {
   // Resources that will be always be cached 😉
   const shellCache = caches.open(SHELL_CACHE_NAME).then( cache => {
     return cache.addAll([
-      '/',
+      './',
       'index.html',
       'css/styles.css',
       'js/app.js',
